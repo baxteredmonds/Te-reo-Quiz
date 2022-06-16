@@ -13,3 +13,14 @@ if answer2 == "c" or answer2 == "tangata":
 
 else: 
   print ("Incorrect!")
+
+answer3= input("what is friend in te reo? \na. whaea \nb. hoa \nc. aroha \n").lower()
+
+if answer3 == "b" or answer3 == "hoa":
+  print ("Correct!")
+
+else: 
+  print ("Incorrect!")
+
+
+
