@@ -6,6 +6,8 @@ if answer1 == "a" or answer1 == "hoiho":
 else: 
   print ("Incorrect!")
 
+
+
 answer2= input("what is people in te reo? \na. Tīpuna \nb. Hikoi \nc. Tāngata \n").lower()
 
 if answer2 == "c" or answer2 == "tangata":
@@ -22,5 +24,18 @@ if answer3 == "b" or answer3 == "hoa":
 else: 
   print ("Incorrect!")
 
+answer4= input("what is amazing in te reo? \na. tane \nb. Mīharo \nc. Moko \n").lower()
 
+if answer4 == "b" or answer4 =="Miharo":
+  print ("Correct!")
 
+else: 
+  print ("Incorrect!")
+
+answer5= input("what is land te reo? \na. Whenua \nb. Pukukai \nc. Titiro \n").lower()
+
+if answer5 == "a" or answer5 =="Whenua":
+  print ("Correct!")
+
+else: 
+  print ("Incorrect!")
